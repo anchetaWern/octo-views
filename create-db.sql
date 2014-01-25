@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS `tbl_blogviews` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `post_id` int(11) NOT NULL,
+  `date` date NOT NULL,
+  `views` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=283 ;
+
+
+CREATE TABLE IF NOT EXISTS `tbl_octoblog` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(140) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=60 ;
+
