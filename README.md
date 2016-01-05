@@ -55,6 +55,11 @@ Execute the queries in the `create-db.sql` file to create the tables that will s
 After that, upload the contents of the `stats-viewer` directory into a web accessible directory in your server. Be sure to update `db-config.php` to include your database credentials. Once you've set that up, simply update the JavaScript code to make the request to the server you've just setup.
 
 
+##Project Status
+
+Abandonware. I no longer have any plans on improving and maintaining this project.
+
+
 ##License
 
 The MIT License (MIT) Copyright (c)
